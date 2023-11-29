@@ -9,8 +9,7 @@ This repository presents a comprehensive study on damage detection in high-energ
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/[your-username]/[your-repo].git
-    cd [your-repo]
+    git clone https://github.com/DomenicoMereu97/ELI_DemageDetection.git
     ```
 
 2. **Set up the environment:**
