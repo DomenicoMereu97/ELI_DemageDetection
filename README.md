@@ -4,8 +4,28 @@ High-energy laser facilities heavily rely on the integrity of optical components
 
 This repository presents a comprehensive study on damage detection in high-energy laser systems using three distinct deep learning approaches: ResNet, Siamese network, and Pseudo-Labeling. Additionally, we employ Grad-CAM for damage region identification. The choice of Grad-CAM is motivated by the absence of target labels denoting the specific locations of damage spots.
 
-# Key Features
-Deep Learning Models: Explore the effectiveness of ResNet, Siamese network, and Pseudo-Labeling for damage detection in high-energy laser systems.
+## Getting Started
 
-Grad-CAM for Region Identification: Utilize Grad-CAM for identifying damage regions without the need for target labels, providing insights into the areas affected by laser-induced damage.
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/[your-username]/[your-repo].git
+    cd [your-repo]
+    ```
+
+2. **Set up the environment:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Download the dataset and model checkpoint:**
+
+   - Download the dataset and model checkpoint from [this Google Drive link](https://drive.google.com/drive/folders/1WkTzeLfyJlFnJbqbBc2MsUywNV080NV2?usp=sharing).
+   - Place the dataset in the `data/` directory.
+   - For the model checkpoint, create a `save/` directory and save the checkpoint file there.
+
+4. **Explore the Jupyter notebooks:**
+
+   - See Jupyter notebooks for model training, evaluation, and Grad-CAM visualization.
 
