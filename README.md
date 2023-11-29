@@ -22,7 +22,7 @@ This repository presents a comprehensive study on damage detection in high-energ
 
    - Download the dataset and model checkpoint from [this Google Drive link](https://drive.google.com/drive/folders/1WkTzeLfyJlFnJbqbBc2MsUywNV080NV2?usp=sharing).
    - Place the dataset in the `data/` directory.
-   - For the model checkpoint, create a `save/` directory and save the checkpoint file there.
+   - For the model checkpoint resnet.pth, create a `save/` directory and save the checkpoint file there.
 
 4. **Explore the Jupyter notebooks:**
 
